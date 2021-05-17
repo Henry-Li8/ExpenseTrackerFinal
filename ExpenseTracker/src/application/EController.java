@@ -204,23 +204,7 @@ public class EController implements Initializable {
 		
 	}
 	@FXML
-	/*
-	void handleStats(){
-		try {
-			FXMLLoader loader = new FXMLLoader(Main.class.getResource("EStat.FXML"));
-			AnchorPane pane = loader.load();
-			Scene scene = new Scene (pane);
-			EStat estat = loader.getController();
-			estat.SetStats(EData);
-			Stage stage = new Stage();
-			stage.setScene(scene);
-			stage.setTitle("Expense Graph");
-			stage.show();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-	*/
+	
 
 	public File getEFilePath() {
 		Preferences prefs = Preferences.userNodeForPackage(Main.class);
